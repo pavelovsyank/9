@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Item Details</title>
+    <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+</head>
+<body> 
+    <p> это файл tomato</p>
+    <h1><a href="{{ url_for('chery', id=id) }}">chery: {{ id }}</a></h1>
+    вишня растет на дереве
+    <h1><a href="{{ url_for('melon', id=id) }}">melon: {{ id }}</a></h1>
+    арбуз растет на земле
+    <h1><a href="{{ url_for('watermelon', id=id) }}">watermelon: {{ id }}</a></h1>
+    дыня растет на земле
+    <h1><a href="{{ url_for('potato', id=id) }}">potato: {{ id }}</a></h1>
+    картошка растет в земле
+    <h1><a href="{{ url_for('tomato', id=id) }}">tomato: {{ id }}</a></h1>
+    помидор растет на кусте
+    <h1><a href="{{ url_for('blackberries', id=id) }}">blackberries: {{ id }}</a></h1>
+    ежевика растет на кусте
+    <h1><a href="{{ url_for('pear', id=id) }}">pear: {{ id }}</a></h1>
+    груша растет на дереве
+    <h1><a href="{{ url_for('cucumber', id=id) }}">cucumber: {{ id }}</a></h1>
+    огурец растет на кусте
+    <h1><a href="{{ url_for('grape', id=id) }}">grape: {{ id }}</a></h1>
+    виноград растет на дереве
+</body>
+</html>
