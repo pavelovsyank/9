@@ -1,8 +1,8 @@
 version: "3"
 
 services:
-  api:
-    container_name: api
+  api9:
+    container_name: api9
     restart: unless-stopped
     build:
       context: ./
